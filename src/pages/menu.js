@@ -37,7 +37,7 @@ function createMenuSection() {
   const coffeeTitle = document.createElement('div');
   coffeeTitle.classList.add('coffee-title');
   const coffeeImage = document.createElement('img');
-  coffeeImage.src = '/src/assets/Coffee.png';
+  coffeeImage.src = '/dist/assets/Coffee.png';
   coffeeImage.alt = 'Coffee';
   const coffeeHeading = document.createElement('h3');
   coffeeHeading.textContent = 'Coffee';
@@ -60,7 +60,7 @@ function createMenuSection() {
   const teaTitle = document.createElement('div');
   teaTitle.classList.add('tea-title');
   const teaImage = document.createElement('img');
-  teaImage.src = '/src/assets/Tea.png';
+  teaImage.src = '/dist/assets/Tea.png';
   teaImage.alt = 'Tea';
   const teaHeading = document.createElement('h3');
   teaHeading.textContent = 'Tea';
@@ -83,7 +83,7 @@ function createMenuSection() {
   const beansTitle = document.createElement('div');
   beansTitle.classList.add('beans-title');
   const beansImage = document.createElement('img');
-  beansImage.src = '/src/assets/Beans.png';
+  beansImage.src = '/dist/assets/Beans.png';
   beansImage.alt = 'Coffee Beans';
   const beansHeading = document.createElement('h3');
   beansHeading.textContent = 'Coffee Beans';
