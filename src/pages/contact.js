@@ -1,7 +1,6 @@
 function createContactSection() {
-  // Create the root element
-  const root = document.createElement('div');
-  root.classList.add('content');
+  // Get the existing "content" div from the template
+  const content = document.querySelector('.content')
 
   // Create the content-card element
   const contentCard = document.createElement('div');
@@ -51,12 +50,8 @@ function createContactSection() {
   contentCard.appendChild(brand);
   contentCard.appendChild(contactInfo);
 
-  root.appendChild(contentCard);
-
-  // Append the root element to the body
-  document.body.appendChild(root);
-
-  return root;
+  // Append the content-card to the existing "content" div
+  content.appendChild(contentCard);
 }
 
 // Export the createContactSection function as a module

@@ -1,10 +1,12 @@
 // Function to create and render the home section along with the content
 function createHomeSection() {
-  // Create the HTML structure for the home section
-  const content = document.createElement('div');
-  content.className = 'content';
+
+  // Get the existing "content" div from the template
+  const content = document.querySelector('.content');
+
+  // Create the content-card element
   const contentCard = document.createElement('div');
-  contentCard.className = 'content-card';
+  contentCard.classList.add('content-card');
 
   // Create and append the brand section
   const brand = document.createElement('div');
@@ -83,8 +85,7 @@ function createHomeSection() {
   contentCard.appendChild(location);
 
   content.appendChild(contentCard);
-
-  document.body.appendChild(content);
 }
+
   // Export the createHomeSection function for use in website.js
   export { createHomeSection };

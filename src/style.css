@@ -30,7 +30,7 @@ body::before {
 }
 
 .navbar {
-  height: 4rem;
+  height: 3rem;
   margin: 0;
   list-style: none;
   display: flex;
@@ -41,6 +41,9 @@ body::before {
   font-weight: 700;
   color: white;
   background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar button {
@@ -79,6 +82,7 @@ body::before {
   gap: 20px;
   background-color: rgb(57, 68, 57);
   margin: 1rem;
+  margin-top: 4rem;
   margin-bottom: 3.2rem;
 }
 
